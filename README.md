@@ -64,6 +64,16 @@ data-model/                  Structured data / API / ontology design
 grant-development/           Academic partnership and grant-development work
 ```
 
+## Repository architecture
+
+This project currently uses three repositories with deliberately separate responsibilities: the research programme and methodology, the executable research database/API, and the Unity game product.
+
+See [`REPOSITORY-ARCHITECTURE.md`](REPOSITORY-ARCHITECTURE.md) for the authoritative boundary and source-of-truth rules for:
+
+- `historical-research-project`;
+- `historical-research-api`;
+- `bruges-1488`.
+
 ## Current development sequence
 
 The Bruges 1488 academic/Digital Humanities track is intentionally gated:
